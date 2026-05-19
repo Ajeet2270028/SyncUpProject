@@ -1,0 +1,16 @@
+# Next.js build folder — NEVER commit this
+Frontend/.next/
+Frontend/node_modules/
+
+# Backend dependencies
+Backend/node_modules/
+
+# Environment files — contains passwords and secrets
+Backend/.env
+Frontend/.env
+Frontend/.env.local
+.env
+
+# Logs
+*.log
+npm-debug.log*
